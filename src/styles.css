@@ -1,0 +1,168 @@
+@import 'prismjs/themes/prism-okaidia.css';
+@import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+@import 'prismjs/plugins/line-highlight/prism-line-highlight.css';
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow: hidden;}
+
+.router-content {
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 32px;
+}
+
+.word-wrap * {
+    white-space: normal;
+}
+
+.word-wrap > pre[class*="language-"].line-numbers > code {
+    white-space: normal;
+}
+
+.auto-height {
+    height: auto !important;
+}
+.full-width {
+    width: 100% !important;
+}
+
+.mr-2 {
+    margin-right: 2% !important;
+}
+
+.mt-2 {
+    margin-top: 2% !important;
+}
+
+.mb-2 {
+    margin-bottom: 2% !important;
+}
+
+.img-align-bottom {
+    vertical-align: bottom;
+}
+
+.top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.center-image-fab {
+    top: -4px; 
+    position: relative; 
+    width: 32px;
+    height: 32px;
+}
+
+
+.site-nav-bar {
+    width: 17%;
+    min-width: 256px;
+    z-index: 20;
+}
+
+.auto-flex {
+    flex: auto;
+}
+
+.no-flex {
+    flex: none;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.font-medium {
+    font-size: medium;
+}
+
+.font-large {
+    font-size: large;
+}
+
+.disp-flex {
+    display: flex !important;
+}
+
+.no-break {
+    overflow: visible;
+    white-space: nowrap !important;
+}
+
+@media screen and (max-width: 2560px) {
+    .router-content {
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .router-content {
+        padding-left: 21%;
+        padding-right: 21%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 1720px) {
+    .router-content {
+        padding-left: 19%;
+        padding-right: 19%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .router-content {
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .router-content {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .router-content {
+        padding-left: 13%;
+        padding-right: 13%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .router-content {
+        padding-left: 11%;
+        padding-right: 11%;
+        padding-top: 32px;
+    }
+}
+
+/* Small Screen */
+@media screen and (max-width: 768px) {
+    .router-content {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 32px;
+    }
+}
+
+/* Small Screen */
+@media screen and (max-width: 600px) {
+    .router-content {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 32px;
+    }
+}
