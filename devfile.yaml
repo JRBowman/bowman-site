@@ -4,7 +4,7 @@ metadata:
 projects:
   - name: nodejs-web-app
     source:
-      location: 'https://bowman-redhat@dev.azure.com/bowman-redhat/bowman-site/_git/bowman-site'
+      location: 'https://github.com/JRBowman/bowman-site.git'
       type: git
 components:
   - id: vscode/typescript-language-features/latest
