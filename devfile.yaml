@@ -4,14 +4,13 @@ metadata:
   displayName: Angular
   icon: https://raw.githubusercontent.com/devfile-samples/devfile-stack-icons/main/angular.svg
   language: typescript
-  name: ang13-dev
+  name: ang13dev
   projectType: angular
   tags:
     - NodeJS
     - Angular
-  version: 1.0.1
 projects:
-  - name: ang13-site
+  - name: ang13site
     git:
       checkoutFrom:
         revision: devfilev2
